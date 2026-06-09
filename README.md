@@ -52,8 +52,12 @@ I am especially interested in projects where embedded hardware, healthcare data,
 ## GitHub Snapshot
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=tirofina&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tirofina&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=tirofina&amp;theme=github_dark" alt="GitHub stats" />
+  <img width="390" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=tirofina&amp;theme=github_dark" alt="Top languages by repository" />
+</p>
+
+<p align="center">
+  <img width="790" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tirofina&amp;theme=github_dark" alt="GitHub contribution summary" />
 </p>
 
 ## Links
