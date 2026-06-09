@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Seongchan Lee</h1>
 
 <p align="center">
-  <b>Embedded systems, healthcare IoT, and interactive sensor interfaces</b><br />
-  From hardware signals to usable software, I like building the whole path end to end.
+  <b>Embedded systems, healthcare IoT, digital twins, and interactive sensor interfaces</b><br />
+  From hardware signals to live virtual replicas, I like building the whole path end to end.
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 - Raspberry Pi Zero 2 W display and touch tooling for lightweight embedded GUIs.
 - Wearable sensor pipelines that collect, calibrate, stream, and visualize real-time body/interaction data.
-- Unity/XR prototypes that turn sensor data into interactive evaluation and digital twin experiences.
+- Unity/XR digital twin prototypes that synchronize sensor data with virtual scenes and feedback loops.
 - Small automation tools that remove setup friction from hardware and Linux workflows.
 
 ## Featured Work
@@ -22,8 +22,8 @@
 | Project | What it does | Stack |
 | --- | --- | --- |
 | [RpiZero2WDisplay](https://github.com/tirofina/RpiZero2WDisplay) | On-demand X11, touchscreen calibration, and pygame/OpenCV display tooling for a Raspberry Pi Zero 2 W with a Waveshare LCD. | Raspberry Pi, DietPi, Bash, Python, pygame, X11 |
-| [BPNE_StrainGauge](https://github.com/tirofina/BPNE_StrainGauge) | Wearable glove sensor prototype for finger/pressure sensing, UDP data streaming, PC monitoring, PCB assets, and Unity/XR visualization. | ESP32, Raspberry Pi, Python, PyQt6, UDP, KiCad, Unity |
-| [oneM2M-Digital-Twin-Interworking_Unity](https://github.com/tirofina/oneM2M-Digital-Twin-Interworking_Unity) | Digital twin interworking using oneM2M data flow inside Unity. | oneM2M, Unity, C# |
+| [BPNE_StrainGauge](https://github.com/tirofina/BPNE_StrainGauge) | Wearable glove sensor prototype for finger/pressure sensing, UDP data streaming, PC monitoring, PCB assets, and Unity/XR twin visualization. | ESP32, Raspberry Pi, Python, PyQt6, UDP, KiCad, Unity |
+| [oneM2M-Digital-Twin-Interworking_Unity](https://github.com/tirofina/oneM2M-Digital-Twin-Interworking_Unity) | Digital twin interworking using oneM2M data flow to synchronize physical IoT state with a Unity scene. | oneM2M, Unity, C# |
 | [Mobius_WALWAL](https://github.com/tirofina/Mobius_WALWAL) | Smart helper concept connecting IoT services with companion-care scenarios. | Mobius, IoT |
 
 ## Toolbox
@@ -44,10 +44,14 @@
 ## Current Focus
 
 ```text
-sensor hardware -> data acquisition -> calibration/filtering -> real-time UI -> interaction design
+sensor hardware -> telemetry -> calibration/filtering -> digital twin state -> real-time feedback
 ```
 
-I am especially interested in projects where embedded hardware, healthcare data, and visual feedback meet. My recent notes and repositories are clustered around camera/display devices, wearable strain/pressure sensing, oneM2M-style IoT communication, and practical automation for repeatable setups.
+I am especially interested in projects where embedded hardware, healthcare data, digital twins, and visual feedback meet. My recent notes and repositories are clustered around camera/display devices, wearable strain/pressure sensing, oneM2M-style IoT communication, Unity/XR twin scenes, and practical automation for repeatable setups.
+
+## Digital Twin Direction
+
+I want my systems to preserve the connection between the physical device and its virtual state: sensors should produce reliable telemetry, software should clean and synchronize that stream, and the interface should make the live state understandable through a responsive digital twin.
 
 ## GitHub Snapshot
 
